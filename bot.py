@@ -1,4 +1,6 @@
 from discord.ext import commands
+token = 'sdkfmsdkmskd'
+
 
 client = commands.Bot(command_prefix='>')
 
@@ -10,4 +12,4 @@ async def on_ready():
 async def heyy(ctx):
 	await ctx.send("heyyy")
 
-client.run('token')
+client.run(token)
